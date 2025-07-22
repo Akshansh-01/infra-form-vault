@@ -36,6 +36,18 @@ export default {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				info: {
+					DEFAULT: 'hsl(var(--info))',
+					foreground: 'hsl(var(--info-foreground))'
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
@@ -61,7 +73,38 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				builder: {
+					primary: 'hsl(var(--builder-primary))',
+					'primary-foreground': 'hsl(var(--builder-primary-foreground))',
+					secondary: 'hsl(var(--builder-secondary))',
+					'secondary-foreground': 'hsl(var(--builder-secondary-foreground))',
+					surface: 'hsl(var(--builder-surface))',
+					'surface-foreground': 'hsl(var(--builder-surface-foreground))',
+					muted: 'hsl(var(--builder-muted))',
+					border: 'hsl(var(--builder-border))'
+				},
+				status: {
+					pending: 'hsl(var(--status-pending))',
+					completed: 'hsl(var(--status-completed))',
+					error: 'hsl(var(--status-error))',
+					info: 'hsl(var(--status-info))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-surface': 'var(--gradient-surface)',
+				'gradient-header': 'var(--gradient-header)',
+			},
+			boxShadow: {
+				'builder-sm': 'var(--shadow-sm)',
+				'builder-md': 'var(--shadow-md)',
+				'builder-lg': 'var(--shadow-lg)',
+				'builder-glow': 'var(--shadow-glow)',
+			},
+			transitionTimingFunction: {
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
+				'bounce': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
